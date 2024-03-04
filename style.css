@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.instagram {
+    background-color: #405DE6;
+}
+
+.linkedin {
+    background-color: #0077B5;
+}
+
+.github {
+    background-color: #24292E;
+}
+
+.reddit {
+    background-color: #FF4500;
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+.social-link:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+.social-link i {
+    margin-right: 10px;
+}
+
+        
+#connect-with-me-link {
+  position: fixed;
+  bottom: 20px;
+  right: 130px;
+  background-color: #3498db; /* Choose your desired background color */
+  color: #fff; /* Choose your desired text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap between text and icon */
+  transition: background-color 0.3s ease;
+}
+
+#connect-with-me-link:hover {
+    background-color: #2c3e50;
+}
+

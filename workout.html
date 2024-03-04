@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple workout interval timer to track your exercise routines, sets, and intervals.">
+  <meta name="keywords" content="workout, interval timer, exercise, fitness, sets, reps">
+  <meta name="author" content="Jerome Scott">
+  <title>Workout Interval Timer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+  <div class="container my-4">
+    <h1 class="text-center mb-4">Workout Interval Timer</h1>
+    <div class="row gy-3">
+      <div class="col-md-6">
+        <div class="form-floating mb-3">
+          <input type="text" id="exercise-name" class="form-control" placeholder="Exercise name" required>
+          <label for="exercise-name">Exercise Name</label>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-floating mb-3">
+          <input type="number" id="reps" class="form-control" min="1" step="1" placeholder="Reps" required>
+          <label for="reps">Reps</label>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-floating mb-3">
+          <input type="number" id="sets" class="form-control" min="1" step="1" placeholder="Sets" required>
+          <label for="sets">Sets</label>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-floating mb-3">
+          <input type="number" id="interval" class="form-control" min="1" step="1" placeholder="Interval (seconds)" required>
+          <label for="interval">Interval (seconds)</label>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-floating mb-3">
+          <input type="number" id="rest" class="form-control" min="0" step="1" placeholder="Rest (seconds)" required>
+          <label for="rest">Rest (seconds)</label>
+        </div>
+      </div>
+      <div class="col-12 text-center">
+        <button id="add-workout" class="btn btn-primary mt-3">Add Workout</button>
+      </div>
+    </div>
+    <ul id="workout-list" class="list-group my-4"></ul>
+    <div class="text-center">
+      <h2 id="timer-display">00:00</h2>
+      <h3 id="current-set" class="highlighted-text"></h3>
+      <h3 id="current-exercise" class="highlighted-text"></h3>
+
+      <h3 id="workout-state" class="highlighted-text"></h3>
+
+      <div class="btn-group mt-3" role="group">
+        <button id="start" class="btn btn-success" aria-label="Start Timer">Start</button>
+        <button id="pause" class="btn btn-warning" aria-label="Pause Timer" disabled>Pause</button>
+        <button id="clear-workouts" class="btn btn-danger" aria-label="Clear Workouts">Clear Workouts</button>
+      </div>
+      <div id="completion-message" class="alert alert-success mt-4 d-none" role="alert">
+        All workouts completed!
+      </div>
+      <div id="no-workouts-warning" class="alert alert-danger mt-4 d-none" role="alert">
+        No workouts added! Please add a workout to start the timer.
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="conn">
+    <a href="connection.html" target="_blank">Connect with me</a>
+</div> -->
+
+
+<a href="connection.html" id="connect-with-me-link" target="_blank">
+    Connect with Me <i class="fas fa-envelope"></i>
+  </a>
+
+
+<script src="workout.js"></script>
+</body>
+</html>
