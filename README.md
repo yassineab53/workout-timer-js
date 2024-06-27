@@ -9,14 +9,13 @@ Workout Interval Timer is a user-friendly web app for tracking exercise routines
 - **User-Friendly Interface**: Simple and intuitive design for easy navigation and use.
 
 ## Project Structure
-
-
+`
 your_project/
 │
 ├── index.html
 ├── style.css
 ├── script.js
-└── main.py
+└── main.py `
 
 
 
