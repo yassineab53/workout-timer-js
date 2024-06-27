@@ -57,25 +57,27 @@ h1 {
     margin-right: 10px;
 }
 
-        
+
 #connect-with-me-link {
-  position: fixed;
-  bottom: 20px;
-  right: 130px;
-  background-color: #3498db; /* Choose your desired background color */
-  color: #fff; /* Choose your desired text color */
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px; /* Adjust the gap between text and icon */
-  transition: background-color 0.3s ease;
+    position: fixed;
+    bottom: 20px;
+    right: 130px;
+    background-color: #3498db;
+    /* Choose your desired background color */
+    color: #fff;
+    /* Choose your desired text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* Adjust the gap between text and icon */
+    transition: background-color 0.3s ease;
 }
 
 #connect-with-me-link:hover {
     background-color: #2c3e50;
 }
-

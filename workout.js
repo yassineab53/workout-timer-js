@@ -17,7 +17,7 @@ const noWorkoutsWarning = document.getElementById('no-workouts-warning');
 const workoutStateDisplay = document.getElementById('workout-state');
 
 // app state messages
-const workoutState = { workout: 'Workout', rest: 'Rest', allWorkoutsCompleted: 'All workouts completed.'}
+const workoutState = { workout: 'Workout', rest: 'Rest', allWorkoutsCompleted: 'All workouts completed.' }
 
 // Initialize variables
 let workoutListData = [];
@@ -61,7 +61,7 @@ function displayWorkout(workout) {
 }
 
 // Rest the display state
-function resetDisplay(){
+function resetDisplay() {
     clearInterval(timer); // Clear the interval timer
     timerDisplay.textContent = '00:00'; // Reset the timer display
     completionMessage.classList.add('d-none'); // Hide the completion message
