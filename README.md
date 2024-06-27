@@ -37,7 +37,7 @@ This will open the Workout Interval Timer in a desktop application window.
 
 ## Live Demo
 
-[Link to live demo](https://<username>.github.io/<repository>/) 
+[Link to live demo](https://yassine4real.github.io/workout-timer-js/) 
 
 ## Contributing
 
