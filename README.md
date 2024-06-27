@@ -37,7 +37,7 @@ This will open the Workout Interval Timer in a desktop application window.
 
 ## Live Demo
 
-[Link to live demo](https://<username>.github.io/<repository>/) (Replace with your deployment link)
+[Link to live demo](https://<username>.github.io/<repository>/) 
 
 ## Contributing
 
